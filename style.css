@@ -3,7 +3,8 @@
 .navbar-brand{font-family: 'Merriweather', serif;
 }
 
-.navbar-text{text-align: right;
+.navbar-nav{float: left;
+	line-height: 2.0;
 
 }
 
@@ -26,9 +27,7 @@ padding-left: 2rem;
 }
 
 #avatar{
-	height: 300 px;
-	width:300px;
-
+	height: auto;
+	width: auto;
 
 }
-
