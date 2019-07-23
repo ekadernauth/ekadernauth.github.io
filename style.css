@@ -1,13 +1,21 @@
 
 /* Nav Bar*/
-.navbar-brand{font-family: 'Merriweather', serif;
-}
+.navbar-brand{font-family: 'Merriweather', serif;}
 
 .navbar-nav{float: left;
-	line-height: 2.0;
-
+	line-height: .5;
 }
 
+.nav-item{float: left;
+}
+
+#icon{margin: 1em;
+	height: 10%;
+	width: 10%;
+}
+
+.nav-link{
+}
 /*Jumbotron*/
 .jumbotron {background: #abbaab;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #e6f2f2, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -16,18 +24,19 @@ background: linear-gradient(to right, #e6f2f2, #ffffff); /* W3C, IE 10+/ Edge, F
 
 .display-4 {font-family: 'Merriweather', serif;
 font-weight: 900;
-padding-left: 2rem;
-font-size: 3rem;
+padding-left: 5%;
+font-size: 50%;
+text-overflow: wrap;
 
 }
 
 .lead {font-family: 'Open Sans', sans-serif;
-padding-left: 2rem;
+padding-left: 5%;
 
 }
 
 #avatar{
-	height: auto;
-	width: auto;
+	height: 50%;
+	width: 50%;
 
 }
