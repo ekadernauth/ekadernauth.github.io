@@ -42,11 +42,12 @@ padding-left: 5%;
 color: #1A1A1A;	
 }
 
-#avatar{
-	height: 50%;
-	width: 50%;
+.rounded{
+	height: 75%;
+	width: 75%;
 }
 
 .card{
 	text-overflow: shrink;
+
 }
